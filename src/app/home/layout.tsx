@@ -1,3 +1,4 @@
+import { Header } from "@/components/components";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -8,7 +9,10 @@ export const metadata: Metadata = {
     default: 'Home | Green Pulse Template',
     template: '%s | Green Pulse Template'
   },
-  description: "Main Layout"
+  description: "Main Layout",
+  icons: {
+    
+  }
 };
 
 export default function MainLayout({
@@ -18,7 +22,10 @@ export default function MainLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+    </body>
     </html>
   );
 }
