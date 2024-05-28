@@ -17,7 +17,8 @@ const config: Config = {
     colors: {
       'primary': "#00412e",
       'white': "#FFFFFF",
-      'secondry': "#0ec22b"
+      'secondry': "#0ec22b",
+      'white_200': "#eef6ef"
     },
     screens: {
       'lg': '1400px'
