@@ -1,13 +1,16 @@
 import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
+import Hero from "./@hero";
+import WhyUs from "./@whyus";
 
 export const metadata = {
     title: "Home"
 }
 
-export default function Home (params: Params) {
+export default function Home () {
     return (
-        <main className="h-[100vh]">
-            <h1>Green Pulse Template</h1>
-        </main>
+        <>
+            <Hero />
+            <WhyUs />
+        </>
     );
 };
