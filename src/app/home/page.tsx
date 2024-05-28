@@ -6,6 +6,8 @@ export const metadata = {
 
 export default function Home (params: Params) {
     return (
-        <h1>Green Pulse Template</h1>
+        <main className="h-[100vh]">
+            <h1>Green Pulse Template</h1>
+        </main>
     );
 };
