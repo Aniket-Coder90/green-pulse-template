@@ -4,7 +4,7 @@ import whyusImage from '../../../images/whyus.jpg';
 export default function WhyUs () {
     return (
         <section className="py-[50px]">
-            <div className="flex container">
+            <div className="flex container mx-auto">
                 <div className="w-[50%] h-[90vh] px-[80px] flex flex-col justify-center gap-[20px]">
                     <span className="text-secondry text-xs font-bold">WHY YOU CHOOSE US</span>
                     <h1 className="text-4xl leading-snug font-bold text-primary">Building a Sustainable Tomorrow</h1>
